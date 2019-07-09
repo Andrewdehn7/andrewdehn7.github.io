@@ -1,0 +1,43 @@
+/* Primary style sheet for Assignment 2 */
+
+/* Body section formatting (header, main, aside and footer) */
+body { width: 800px; font-family: Arial, Helvetica, sans-serif; margin: auto;
+		background-color: white; border: 5px solid black; border-color: black; box-shadow: 10px 10px 20px; }
+main, aside, footer {margin: 0; background-color: white;}
+aside {width: 160px; float: left;}		
+main {width: 640px; float: right; margin-top: 0;}
+footer {clear: both;}		
+
+header {padding: 5px; border-bottom: 5px solid black; 
+		background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+		background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);}
+footer {border-top: 5px solid black; padding: 10px; 
+		background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%); 
+		background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);		
+		font-size: 10px; text-align: center;}
+
+/*Background*/
+html {background: url("../images/bats.gif"); background-repeat: repeat;}
+
+/* Text formatting controls*/
+p.banner { font-size: 265%; font-weight: 700; margin-top: 0; margin-bottom: 0; text-indent: 1%; font-family: Arial-Black, Gadget, sans-serif;}
+p.slogan { font-size: 150%; text-indent: 1%; margin-bottom: 0; margin-top: 0; font-style: bold; font-weight: 700;}
+p.welcome {font-size: 150%; font-weight: 700; font-weight: 700;}
+p.welcome::first-letter { font-size: 200%;}
+p.categories {font-size: 120%; font-weight: 700; margin-bottom: 0;}
+p.footer { font-size: 150%; margin: 0;}
+p.linkheader {font-size: 150%;}
+
+/* Floating image for logo pumpkin*/
+img.pk { float: left;}
+
+/* Colour-coding links and bolding font */
+a:link { color: orange; font-weight: bold; }
+a:visited {color: orange; font-weight: bold; }
+a:active {color: orange; font-weight: bold; }
+a:hover {color: green; font-weight: bold; }
+
+/* Bullet link formatting */
+li { padding: 1px;}
+ul {list-style-type: square;}
+
